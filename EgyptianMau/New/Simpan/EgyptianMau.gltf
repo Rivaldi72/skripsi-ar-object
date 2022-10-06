@@ -1,0 +1,387 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "high_poly",
+            "rotation" : [
+                0,
+                -0.7071068286895752,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.2771959602832794,
+                0.2771960496902466,
+                0.2771959602832794
+            ],
+            "translation" : [
+                0,
+                -1.4711544513702393,
+                0.17418311536312103
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "eye2.001",
+            "rotation" : [
+                0,
+                -0.6851208806037903,
+                0,
+                0.72842937707901
+            ],
+            "scale" : [
+                0.42513537406921387,
+                0.42513540387153625,
+                0.42513537406921387
+            ],
+            "translation" : [
+                -0.13999998569488525,
+                0.3371989130973816,
+                1.8700001239776611
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "eye2",
+            "rotation" : [
+                0,
+                -0.6851209998130798,
+                0,
+                0.7284293174743652
+            ],
+            "scale" : [
+                0.4373084008693695,
+                0.43730807304382324,
+                0.4373084008693695
+            ],
+            "translation" : [
+                -0.11999998241662979,
+                0.32719892263412476,
+                1.8600000143051147
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Egyptian",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.71100914478302
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "whiskers.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "SHD_eye.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.18807339668273926
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Cube.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6,
+                        "COLOR_0" : 7
+                    },
+                    "indices" : 8,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Cube.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 9,
+                        "NORMAL" : 10,
+                        "TEXCOORD_0" : 11,
+                        "COLOR_0" : 12
+                    },
+                    "indices" : 13,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "EgyptianColor",
+            "uri" : "EgyptianColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Image_1",
+            "uri" : "Image_1.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3827,
+            "max" : [
+                6.982350826263428,
+                8.462529182434082,
+                1.6222347021102905
+            ],
+            "min" : [
+                -9.116850852966309,
+                -0.015290562063455582,
+                -1.6223125457763672
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3827,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3827,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 18984,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 650,
+            "max" : [
+                0.5172736644744873,
+                -0.38190174102783203,
+                0.6873195767402649
+            ],
+            "min" : [
+                0.05060744285583496,
+                -0.7435927391052246,
+                -1.2478437423706055
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 650,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 650,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 650,
+            "normalized" : true,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5123,
+            "count" : 2880,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 578,
+            "max" : [
+                0.23958611488342285,
+                0.20009422302246094,
+                0.20009452104568481
+            ],
+            "min" : [
+                -4.76837158203125e-07,
+                -0.20009469985961914,
+                -0.782380223274231
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 578,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5126,
+            "count" : 578,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5123,
+            "count" : 578,
+            "normalized" : true,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5123,
+            "count" : 3264,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 45924,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45924,
+            "byteOffset" : 45924
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30616,
+            "byteOffset" : 91848
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 37968,
+            "byteOffset" : 122464
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7800,
+            "byteOffset" : 160432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7800,
+            "byteOffset" : 168232
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5200,
+            "byteOffset" : 176032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5200,
+            "byteOffset" : 181232
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5760,
+            "byteOffset" : 186432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6936,
+            "byteOffset" : 192192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6936,
+            "byteOffset" : 199128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4624,
+            "byteOffset" : 206064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4624,
+            "byteOffset" : 210688
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6528,
+            "byteOffset" : 215312
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 221840,
+            "uri" : "EgyptianMau.bin"
+        }
+    ]
+}
