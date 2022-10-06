@@ -31,6 +31,7 @@
                 "baseColorTexture" : {
                     "index" : 0
                 },
+                "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
         }
@@ -68,7 +69,7 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 30398,
+            "count" : 30402,
             "max" : [
                 3.4339001178741455,
                 7.941077709197998,
@@ -84,13 +85,13 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 30398,
+            "count" : 30402,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 30398,
+            "count" : 30402,
             "type" : "VEC2"
         },
         {
@@ -103,23 +104,23 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 364776,
+            "byteLength" : 364824,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 364776,
-            "byteOffset" : 364776
+            "byteLength" : 364824,
+            "byteOffset" : 364824
         },
         {
             "buffer" : 0,
-            "byteLength" : 243184,
-            "byteOffset" : 729552
+            "byteLength" : 243216,
+            "byteOffset" : 729648
         },
         {
             "buffer" : 0,
             "byteLength" : 183702,
-            "byteOffset" : 972736
+            "byteOffset" : 972864
         }
     ],
     "samplers" : [
@@ -130,7 +131,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 1156440,
+            "byteLength" : 1156568,
             "uri" : "Balinese.bin"
         }
     ]
