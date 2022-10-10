@@ -8,9 +8,7 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0,
-                1,
-                2
+                0
             ]
         }
     ],
@@ -34,46 +32,6 @@
                 0,
                 0.17418311536312103
             ]
-        },
-        {
-            "mesh" : 1,
-            "name" : "eye2.001",
-            "rotation" : [
-                0,
-                -0.6851208806037903,
-                0,
-                0.72842937707901
-            ],
-            "scale" : [
-                0.42513537406921387,
-                0.42513540387153625,
-                0.42513537406921387
-            ],
-            "translation" : [
-                -0.12077046930789948,
-                1.9441990852355957,
-                1.847040057182312
-            ]
-        },
-        {
-            "mesh" : 2,
-            "name" : "eye2",
-            "rotation" : [
-                0,
-                -0.6851211786270142,
-                0,
-                0.7284291386604309
-            ],
-            "scale" : [
-                0.4373084306716919,
-                0.43730807304382324,
-                0.4373084306716919
-            ],
-            "translation" : [
-                -0.11999998241662979,
-                1.7866743803024292,
-                1.8600000143051147
-            ]
         }
     ],
     "materials" : [
@@ -86,31 +44,6 @@
                 },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.71100914478302
-            }
-        },
-        {
-            "doubleSided" : true,
-            "name" : "whiskers.003",
-            "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.800000011920929,
-                    0.800000011920929,
-                    0.800000011920929,
-                    1
-                ],
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5
-            }
-        },
-        {
-            "doubleSided" : true,
-            "name" : "SHD_eye.003",
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 1
-                },
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.18807339668273926
             }
         }
     ],
@@ -128,46 +61,12 @@
                     "material" : 0
                 }
             ]
-        },
-        {
-            "name" : "Cube.008",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 4,
-                        "NORMAL" : 5,
-                        "TEXCOORD_0" : 6,
-                        "COLOR_0" : 7
-                    },
-                    "indices" : 8,
-                    "material" : 1
-                }
-            ]
-        },
-        {
-            "name" : "Cube.009",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 9,
-                        "NORMAL" : 10,
-                        "TEXCOORD_0" : 11,
-                        "COLOR_0" : 12
-                    },
-                    "indices" : 13,
-                    "material" : 2
-                }
-            ]
         }
     ],
     "textures" : [
         {
             "sampler" : 0,
             "source" : 0
-        },
-        {
-            "sampler" : 0,
-            "source" : 1
         }
     ],
     "images" : [
@@ -175,11 +74,6 @@
             "mimeType" : "image/png",
             "name" : "EgyptianColor",
             "uri" : "EgyptianColor.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "Image_1",
-            "uri" : "Image_1.png"
         }
     ],
     "accessors" : [
@@ -216,88 +110,6 @@
             "componentType" : 5123,
             "count" : 18984,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 650,
-            "max" : [
-                0.5172736644744873,
-                -0.38190174102783203,
-                0.6873195767402649
-            ],
-            "min" : [
-                0.05060744285583496,
-                -0.7435927391052246,
-                -1.2478437423706055
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 650,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 6,
-            "componentType" : 5126,
-            "count" : 650,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 7,
-            "componentType" : 5123,
-            "count" : 650,
-            "normalized" : true,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 8,
-            "componentType" : 5123,
-            "count" : 2880,
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 9,
-            "componentType" : 5126,
-            "count" : 578,
-            "max" : [
-                0.23958611488342285,
-                0.20009422302246094,
-                0.20009452104568481
-            ],
-            "min" : [
-                -4.76837158203125e-07,
-                -0.20009469985961914,
-                -0.782380223274231
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 10,
-            "componentType" : 5126,
-            "count" : 578,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 11,
-            "componentType" : 5126,
-            "count" : 578,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 12,
-            "componentType" : 5123,
-            "count" : 578,
-            "normalized" : true,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 13,
-            "componentType" : 5123,
-            "count" : 3264,
-            "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
@@ -320,56 +132,6 @@
             "buffer" : 0,
             "byteLength" : 37968,
             "byteOffset" : 122464
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 7800,
-            "byteOffset" : 160432
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 7800,
-            "byteOffset" : 168232
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 5200,
-            "byteOffset" : 176032
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 5200,
-            "byteOffset" : 181232
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 5760,
-            "byteOffset" : 186432
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 6936,
-            "byteOffset" : 192192
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 6936,
-            "byteOffset" : 199128
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 4624,
-            "byteOffset" : 206064
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 4624,
-            "byteOffset" : 210688
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 6528,
-            "byteOffset" : 215312
         }
     ],
     "samplers" : [
@@ -380,7 +142,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 221840,
+            "byteLength" : 160432,
             "uri" : "EgyptianMau.bin"
         }
     ]
